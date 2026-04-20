@@ -6,7 +6,7 @@ export default createCommand({
   run: async (payload, ctx) => {
     const { message } = payload.params
     await ctx.twitch.sendMessage({
-      message: `Coucou2: ${message}`
+      message: `Coucou3: ${message}`
     })
   },
 })
